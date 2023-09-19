@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshstart</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Define a background color and font family */
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Create a header with a background color and centered text */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Style the main content container */
+        .container1 {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border:5px solid #ccc;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style headings and paragraphs */
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            color:blue;
+            font-family: 'Roboto', sans-serif;
+            text-shadow: 0 0 10px rgba(255, 255, 0, 0.7);
+        }
+body {
+    background-image: url('https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwww.travenix.com%2Fwp-content%2Fuploads%2F2018%2F01%2Fmood-indigo.jpg&tbnid=YK5ygV42d3w6ZM&vet=12ahUKEwiK4-u2treBAxW1rmMGHaoGBFsQMyggegUIARCXAQ..i&imgrefurl=https%3A%2F%2Fwww.travenix.com%2Fbest-college-cultural-fests-india%2F&docid=E6IizgLUrR6fpM&w=600&h=375&q=college%20events%20images&ved=2ahUKEwiK4-u2treBAxW1rmMGHaoGBFsQMyggegUIARCXAQ');
+    background-repeat: no-repeat;
+    background-size: cover; /* Optional: This will cover the entire background with the image, resizing it if necessary. */
+  }
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+       
+        
+        
+        
+    </style>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+</head>
+<body>
+
+<header>
+<h1> Events</h1>
+</header>
+<div class="container1">
+<p>College events are vibrant and dynamic gatherings that enrich the campus experience. From academic seminars and workshops to social mixers and sports tournaments, these occasions foster personal growth and community engagement. They provide opportunities for students to network, showcase their talents, and create lasting memories while enhancing their overall college journey!! </p>
+<br>
+<br>
+<div class="dropdown">
+  <button class="dropbtn">Events</button>
+  <div class="dropdown-content">
+    <a href="events1.html">Events in VIT</a>
+    
+  </div>
+</div>
+</div>
+</body>
+</html>
